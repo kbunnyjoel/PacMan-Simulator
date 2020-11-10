@@ -63,20 +63,20 @@ c)
 
 - JUnit and Mockito testing frameworks have been used
 
-- IDE used : Eclipse( Maven in-built )
+- Maven version 3.6.3 set environment variable in the system.
 
 
 ## Steps to run the application
 
 - Clone the project from the repository 
-- Import the project as 'Existing Maven Projects'
 - Configure project buildpath for JDK if necessary
-- In Run Configuration, add maven goals 'clean compile test exec:java'
+- Run the maven commands to test the code 
+- Test the code without errors.
 - Check console when all the goals are completed successfully
 
-Alternatively, if you do not want to use eclipse for maven, download maven from https://maven.apache.org/download.cgi and use below commands:
+## Commands to run the code in the console
 
-- Clean: mvn clean
+- Clean: mvn clean package
 - Compile: mvn compile
 - Test: mvn test
 - Run: mvn exec:java
