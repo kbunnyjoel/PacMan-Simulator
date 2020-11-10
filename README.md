@@ -55,7 +55,7 @@ c)
 	Output: 3,3,NORTH
 
 
-## Application Requirements
+## Requirements
 
 - This application is built in Java 8 
 
